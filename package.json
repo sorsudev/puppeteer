@@ -1,0 +1,21 @@
+{
+  "name": "fb_ad_library",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start --ignore-watch='public' -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "Oscar Hugo Cardenas Lopez <oscardev@cacyberlo.com.mx> (https://github.com/sorsudev)",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^15.5.0"
+  }
+}
